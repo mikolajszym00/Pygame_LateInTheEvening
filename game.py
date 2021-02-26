@@ -67,7 +67,7 @@ class Game:
                 if not en.out_of_screen():
                     self.enemies.remove(en)
 
-                """enemy to close to hero"""
+                """enemy is too close to hero"""
                 if self.dist(en.rectangle) < 100:
                     en.to_close = True
                 else:
