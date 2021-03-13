@@ -1,6 +1,7 @@
 import pygame
 from .enemies import Enemies
 
+#powinno być w metodzie w klasie
 images = []
 for i in range(1, 7):
     bat = pygame.image.load('game assets/bat/bat_flying0{}.xcf'.format(i))
